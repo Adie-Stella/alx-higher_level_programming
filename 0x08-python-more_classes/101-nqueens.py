@@ -3,7 +3,7 @@
 
 import sys
 
-
+#code that defines variables
 def init_board(n):
     """Initialize an `n`x`n` sized chessboard with 0's."""
     board = []
@@ -79,8 +79,7 @@ def xout(board, row, col):
             break
         board[r][c] = "x"
         c -= 1
-
-
+#Definition of another variables
 def recursive_solve(board, row, queens, solutions):
     """Recursively solve an N-queens puzzle.
     Args:
